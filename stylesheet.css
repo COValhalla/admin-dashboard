@@ -10,8 +10,7 @@
 }
 /* Header styling */
 .header{
-    background-color: #2C3531;
-    color: white;
+    background-color: #ffffff;
     grid-column: 2/3;
     grid-row: 1/2;
     display: grid;
@@ -28,9 +27,8 @@
 }
 
 input{
-    background: gray;
+    background: #e2e8f0;
     border-radius: 0.5rem;
-    color: white;
     width: 75%;
 }
 
@@ -57,7 +55,7 @@ input{
 }
 button{
     border: none;
-    background-color: #116466;
+    background-color: #1992d4;
     color: white;
     padding: 0.5rem;
     border-radius: 2rem;
@@ -69,7 +67,7 @@ button{
 Todos:
 - Center link text with icon */
 .sidebar{
-    background-color: #116466;
+    background-color: #1992d4;
     color: white;
     padding: 20px;
     grid-column: 1/2;
@@ -77,14 +75,20 @@ Todos:
     display: flex;
     flex-direction: column;
     gap: 3rem;
+    font-size: 1.5rem;
+    font-weight: 300;
 }
 .sidebar-one, .sidebar-two, .sidebar-three{
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
 }
-.sidebar-items, .search-bar-right a{
+.sidebar-items{
     color: white;
+    text-decoration: none;
+}
+.search-bar-right a{
+    color: black;
     text-decoration: none;
 }
 .sidebar-items .material-icons {
@@ -92,12 +96,12 @@ Todos:
     font-size: 1em;
 }
 .sidebar-one>a{
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
 /* Main content styling */
 .main-content {
-    background-color: #FFCB9A;
+    background-color: #e2e8f0;
     grid-row: 2/3;
     grid-column:2/3 ;
     display: grid;
