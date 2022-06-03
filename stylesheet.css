@@ -1,17 +1,14 @@
 *{
-    /* margin: 0;
-    padding: 0; */
-}
-li{
-
+    margin: 0;
+    padding: 0;
 }
 
 .main-container {
     display: grid;
-    grid-template-columns: 1fr 5fr;
+    grid-template-columns: 1fr 3fr;
     grid-template-rows: 1fr 6fr;
 }
-
+/* Header styling */
 .header{
     background-color: #2C3531;
     color: white;
@@ -19,16 +16,34 @@ li{
     grid-row: 1/2;
 }
 
-/* Sidebar styling */
+/* Sidebar styling
+Todos:
+- Icons size with font size
+- Center link text with icon */
 .sidebar{
     background-color: #116466;
     color: white;
+    padding: 20px;
     grid-column: 1/2;
     grid-row: 1/3;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
 }
-#dashboard {
+.sidebar-one, .sidebar-two, .sidebar-three{
+    display: flex;
+    flex-direction: column;
+
+}
+.sidebar-items{
+    color: white;
+    text-decoration: none;
+}
+.sidebar-items .material-icons {
+    margin-right: 20px;
 }
 
+/* Main content styling */
 .main-content {
     background-color: #FFCB9A;
     grid-row: 2/3;
