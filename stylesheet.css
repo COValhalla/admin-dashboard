@@ -5,7 +5,7 @@
 
 .main-container {
     display: grid;
-    grid-template-columns: 1fr 3fr;
+    grid-template-columns: 1fr 4fr;
     grid-template-rows: 1fr 6fr;
 }
 /* Header styling */
@@ -18,7 +18,6 @@
 
 /* Sidebar styling
 Todos:
-- Icons size with font size
 - Center link text with icon */
 .sidebar{
     background-color: #116466;
@@ -33,7 +32,7 @@ Todos:
 .sidebar-one, .sidebar-two, .sidebar-three{
     display: flex;
     flex-direction: column;
-
+    gap: 0.5rem;
 }
 .sidebar-items{
     color: white;
@@ -41,6 +40,10 @@ Todos:
 }
 .sidebar-items .material-icons {
     margin-right: 20px;
+    font-size: 1em;
+}
+.sidebar-one>a{
+    font-size: 1.5rem;
 }
 
 /* Main content styling */
