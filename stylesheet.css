@@ -22,6 +22,7 @@
     display: grid;
     grid-template-columns: 2.5fr 1fr;
 }
+
 .search-bar-right img{
     height: 2rem;
 }
@@ -79,7 +80,7 @@ Todos:
     flex-direction: column;
     gap: 0.5rem;
 }
-.sidebar-items{
+.sidebar-items, .search-bar-right a{
     color: white;
     text-decoration: none;
 }
