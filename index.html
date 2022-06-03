@@ -7,8 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin Dashboard</title>
     <link rel="stylesheet" href="stylesheet.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <script src="javascript.js"></script>
 </head>
 
@@ -17,7 +16,18 @@
     <div class="main-container">
 
         <div class="header">
-            <ul class="left-search">
+            <div class="search-bar">
+                <div class="search-bar-left">
+                    <span class="material-icons">search</span>
+                    <input type="text" placeholder="Search..">
+                </div>
+                <div class="search-bar-right">
+                    <span class="material-icons">notifications</span>
+                    <img src="/imgs/profile.png" alt="profile picture">
+                    Joseph Vellella
+                </div>
+            </div>
+            <!-- <ul class="left-search">
                 <li>search symbol</li>
                 <li>search bar</li>
             </ul>
@@ -25,7 +35,7 @@
                 <li>alarm button</li>
                 <li>profile picture</li>
                 <li>Name</li>
-            </ul>
+            </ul> -->
             <ul class="left-details">
                 <li class="profile-picture">profile picture</li>
                 <li class="hi-there">hi-there</li>
@@ -39,13 +49,13 @@
         </div>
 
         <div class="sidebar">
-            
+
             <div class="sidebar-one">
                 <a href="#" class="sidebar-items">
                     <span class="material-icons">dashboard</span>Dashboard
-                </a>    
+                </a>
             </div>
-            
+
             <div class="sidebar-two">
                 <a href="#" class="sidebar-items">
                     <span class="material-icons">home</span>Home
@@ -78,7 +88,7 @@
                     <span class="material-icons">verified_user</span>Privacy
                 </a>
             </div>
-            
+
 
 
             <!-- <ul class="home-button">
@@ -126,17 +136,16 @@
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                         labore et dolore magna aliqua. Bibendum neque egestas congue quisque egestas diam in.</p>
                 </div>
-                <div class="card">
-                    <p class="title">Super Cool Project</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua. Bibendum neque egestas congue quisque egestas diam in.</p>
-                </div>
+                <p class="title">Super Cool Project</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                    labore et dolore magna aliqua. Bibendum neque egestas congue quisque egestas diam in.</p>
             </div>
-            <div class="announcements">
-                <div class="card">
-                    <p class="title">Site Maintenance</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua. Bibendum neque egestas congue quisque egestas diam in.</p>
+        </div>
+        <div class="announcements">
+            <div class="card">
+                <p class="title">Site Maintenance</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                    labore et dolore magna aliqua. Bibendum neque egestas congue quisque egestas diam in.</p>
                 </div>
                 <div class="card">
                     <p class="title">Community Share Day</p>
