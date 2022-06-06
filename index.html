@@ -7,66 +7,77 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin Dashboard</title>
     <link rel="stylesheet" href="stylesheet.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
     <script src="javascript.js"></script>
 </head>
-    <div class="main">
-        <div class="sidebar">
-            <div class="sidebar__topMenu">
-                <a class = "sidebar__link" href="#">
-                    <span class="material-icons">dashboard</span>Dashboard
-                </a>
-            </div>
-            
-            <div class="sidebar__mainMenu">
-                <a href="#" class="sidebar__link">
-                    <span class="material-icons">home</span>Home
-                </a>
-                <a href="#" class="sidebar__link">
-                    <span class="material-icons">account_circle</span>Profile
-                </a>
-                <a href="#" class="sidebar__link">
-                    <span class="material-icons">message</span>Messages
-                </a>
-                <a href="#" class="sidebar__link">
-                    <span class="material-icons">history</span>History
-                </a>
-                <a href="#" class="sidebar__link">
-                    <span class="material-icons">task</span>Tasks
-                </a>
-                <a href="#" class="sidebar__link">
-                    <span class="material-icons">groups</span>Communities
-                </a>
-            </div>
-            <div class="sidebar__bottomMenu">
-                <a class = "sidebar__link" href="#">
-                    <span class="material-icons">settings</span>Settings
-                </a>
-                <a class = "sidebar__link" href="#">
-                    <span class="material-icons">help</span>Support
-                </a>
-                <a class = "sidebar__link" href="#">
-                    <span class="material-icons">security</span>Privacy
-                </a>
-            </div>
+<div class="main">
+    <div class="sidebar">
+        <div class="sidebar__topMenu">
+            <a class="sidebar__link" href="#">
+                <span class="material-icons">dashboard</span>Dashboard
+            </a>
         </div>
-        <div class="header">
-            <div class="header__search">
-                <span class="material-icons">search</span> 
-                <input class="header__search__bar" type="text">
-                <div class="header__search__separator">
-                    <span class="material-icons">notifications</span>
-                </div>
-                
-                <img class="profile-picture .profile-picture--header" src="/imgs/profile-picture.jpeg" alt="">
-                Joseph Vellella
+
+        <div class="sidebar__mainMenu">
+            <a href="#" class="sidebar__link">
+                <span class="material-icons">home</span>Home
+            </a>
+            <a href="#" class="sidebar__link">
+                <span class="material-icons">account_circle</span>Profile
+            </a>
+            <a href="#" class="sidebar__link">
+                <span class="material-icons">message</span>Messages
+            </a>
+            <a href="#" class="sidebar__link">
+                <span class="material-icons">history</span>History
+            </a>
+            <a href="#" class="sidebar__link">
+                <span class="material-icons">task</span>Tasks
+            </a>
+            <a href="#" class="sidebar__link">
+                <span class="material-icons">groups</span>Communities
+            </a>
+        </div>
+        <div class="sidebar__bottomMenu">
+            <a class="sidebar__link" href="#">
+                <span class="material-icons">settings</span>Settings
+            </a>
+            <a class="sidebar__link" href="#">
+                <span class="material-icons">help</span>Support
+            </a>
+            <a class="sidebar__link" href="#">
+                <span class="material-icons">security</span>Privacy
+            </a>
+        </div>
+    </div>
+    <div class="header">
+        <div class="header__search">
+            <span class="material-icons">search</span>
+            <input class="header__search__bar" type="text">
+            <div class="header__search__separator">
+                <span class="material-icons">notifications</span>
             </div>
 
-            <div class="header__details"></div>
+            <img class="profile-picture profile-picture--header" src="/imgs/profile-picture.jpeg"
+                alt="profile picture">
+            Joseph Vellella
         </div>
-        <div class="content"></div>
+
+        <img class="profile-picture profile-picture--details" src="/imgs/profile-picture.jpeg" alt="profile picture">
+
+        <div class="header__details__intro">
+            Hi there, <br> <span class="header__textName">Joseph Vellella (@ValhallaCO)</span>
+        </div>
+
+        <button class="button button--new">New</button>
+        <button class="button button--upload">Upload</button>
+        <button class="button button--share">Share</button>
+
     </div>
+    <div class="content"></div>
+</div>
+
 <body>
 
 </body>
