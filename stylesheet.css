@@ -63,7 +63,7 @@
     display: grid;
     grid-template-columns: 1fr 10fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1.5fr;
-    gap: 2rem;
+    gap: 1rem;
     align-items: center;
 }
 
@@ -107,7 +107,7 @@
 .profile-picture--header {
     height: 2em;
     width: auto;
-    margin: 0 1rem 0 1rem;
+    margin: 0 3rem 0 3rem;
 }
 
 .profile-picture--details {
