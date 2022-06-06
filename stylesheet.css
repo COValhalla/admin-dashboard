@@ -21,6 +21,7 @@
     font-size: 1.25rem;
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 .sidebar__topMenu{
@@ -41,6 +42,12 @@
     margin-top: 0.5rem;
 }
 
+.sidebar .material-icons{
+    margin-right: 1rem;
+    vertical-align: middle;
+    font-size: 100%;
+    padding: 4px;
+}
 
 
 
