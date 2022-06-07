@@ -200,7 +200,7 @@
 }
 .content__Announcements{
     position: relative;
-    top: -80px;
+    top: -50px;
     left: -15px;
 }
 .content__announcements__card{
@@ -211,9 +211,26 @@
     height: 5px;
     border-top: solid 1px black;
 }
+
 .content__trending{
     grid-row: 2/3;
+    background-color: white;
+    border-radius: 1rem;
+    margin: 4rem 4rem 1rem 1rem;
+    padding: 10px;
+    justify-content: space-evenly;
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+}
+.content__Trending{
+    position: relative;
+    top: -50px;
+    left: -230px;
+}
 
-   
+.content__trending__card{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
 }
 
